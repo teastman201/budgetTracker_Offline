@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-
+// Test
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budgetTracker_Offline", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
